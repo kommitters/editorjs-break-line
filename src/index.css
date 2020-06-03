@@ -1,0 +1,14 @@
+.break-line {
+  outline: none;
+  height: 25px;
+  display: flex;
+  align-content: center;
+}
+
+.break-line__divider {
+  height: 0px;
+  width: 100%;
+  border-top: 2px solid lightgray;
+  align-self: center;
+  display: block;
+}

@@ -1,0 +1,57 @@
+{
+  "name": "editorjs-break-line",
+  "version": "0.1.0",
+  "keywords": [
+    "tool",
+    "divider",
+    "break-line",
+    "editor.js",
+    "editorjs"
+  ],
+  "description": "BreakLine and divider Tool for Editor.js",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kommitters/editorjs-break-line.git"
+  },
+  "author": {
+    "name": "kommit",
+    "email": "info@kommit.co"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kommitters/editorjs-break-line/issues"
+  },
+  "homepage": "https://github.com/kommitters/editorjs-break-line#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@testing-library/jest-dom": "^5.9.0",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "jest": "^26.0.1",
+    "style-loader": "^1.2.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/test/config/setupTests.js"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest",
+      "^.+\\.(css|svg)$": "<rootDir>/test/config/assetsTransform.js"
+    }
+  }
+}
