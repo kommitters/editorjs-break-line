@@ -4,6 +4,8 @@
 
 Break Line and divider Tool for [Editor.js](https://editorjs.io).
 
+![](assets/demo.gif)
+
 ## Notes
 
 - Adds an empty block
