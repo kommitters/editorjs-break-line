@@ -86,3 +86,15 @@ $ yarn build
 ```shell
 $ yarn test
 ```
+
+## Contributing and Development
+Bug reports and pull requests are welcome on GitHub https://github.com/kommitters/editorjs-break-line. Everyone is welcome to participate in the project.
+
+## Changelog
+See the [CHANGELOG](https://github.com/kommitters/editorjs-break-line/blob/master/CHANGELOG.md) for versions details.
+
+## License
+See [LICENSE](https://github.com/kommitters/editorjs-break-line/blob/master/LICENSE) for details.
+
+## Credits
+Made with 💙 by [kommit](https://kommit.co)
