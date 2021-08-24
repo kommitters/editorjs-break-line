@@ -14,9 +14,11 @@ export default class BreakLine {
    * @param {{data: object, api: object}}
    *   data — Previously saved data
    *   api - Editor.js API
+   *   readOnly - read only mode flag
    */
-  constructor({ data, api }) {
+  constructor({ data, config, api, readOnly }) {
     this.api = api;
+    this.readOnly = readOnly
 
     this.CSS = {
       block: this.api.styles.block,
@@ -57,6 +59,8 @@ export default class BreakLine {
 
     this.nodes.wrapper = wrapper;
     this.nodes.divider = divider;
+
+    wrapper.contentEditable = this.readOnly ? 'false' : 'true';
 
     return wrapper;
   }
@@ -144,5 +148,14 @@ export default class BreakLine {
       icon: breaklineIcon,
       title: 'Break Line',
     };
+  }
+
+  /**
+   * Returns true to notify the core that read-only mode is supported
+   *
+   * @return {boolean}
+   */
+  static get isReadOnlySupported() {
+    return true;
   }
 }
