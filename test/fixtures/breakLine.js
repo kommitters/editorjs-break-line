@@ -13,6 +13,8 @@ const api = {
   },
 };
 
+const readOnly = true;
+
 /**
  * Creates an instance of BreakLine
  */
@@ -21,4 +23,14 @@ const createBreakLine = (data) => new BreakLine({
   api,
 });
 
-export default createBreakLine;
+/**
+ * Creates an instance of BreakLine ReadOnly mode active
+ */
+
+const breakLineReadOnly = (data) => new BreakLine({
+  data,
+  api,
+  readOnly
+});
+
+export { createBreakLine, breakLineReadOnly };
