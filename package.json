@@ -1,6 +1,6 @@
 {
   "name": "editorjs-break-line",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "tool",
     "divider",
@@ -20,8 +20,8 @@
     "url": "git+https://github.com/kommitters/editorjs-break-line.git"
   },
   "author": {
-    "name": "kommit",
-    "email": "info@kommit.co"
+    "name": "kommitters Open Source",
+    "email": "oss@kommit.co"
   },
   "license": "MIT",
   "bugs": {
