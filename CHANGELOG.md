@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.0 (27.09.2021)
+* Updated packages with known security breaches.
+
 ## 0.2.0 (09.09.2021)
 
 * Added support to read-only mode.
