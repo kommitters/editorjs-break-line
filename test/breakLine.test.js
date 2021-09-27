@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import {createBreakLine, breakLineReadOnly} from './fixtures/breakLine';
 
 describe('BreakLine', () => {
