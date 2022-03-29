@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.0 (29.03.2022)
+* Updated packages with known securisty breaches.
+
 ## 0.2.1 (27.09.2021)
 * Updated packages with known security breaches.
 
