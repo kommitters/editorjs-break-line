@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.0.0 (29.03.2022)
-* Updated packages with known securisty breaches.
+## 1.0.0 (15.07.2022)
+* Update packages with known security breaches.
+* Add workflow for automatic publishing in npm.
 
 ## 0.2.1 (27.09.2021)
 * Updated packages with known security breaches.
