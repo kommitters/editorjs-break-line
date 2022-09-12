@@ -1,6 +1,7 @@
-![](https://badgen.net/badge/Editor.js/v2.0/blue)
-
 # EditorJS BreakLine Tool
+![](https://badgen.net/badge/Editor.js/v2.0/blue)
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/6467/badge)](https://bestpractices.coreinfrastructure.org/projects/6467)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kommitters/editorjs-break-line/badge)](https://api.securityscorecards.dev/projects/github.com/kommitters/editorjs-break-line)
 
 Break Line and divider Tool for [Editor.js](https://editorjs.io).
 
@@ -24,6 +25,16 @@ Include module at your application
 
 ```javascript
 import BreakLine from 'editorjs-break-line';
+```
+
+### Load from CDN
+
+You can load a specific version of the package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/editorjs-break-line).
+
+Require this script on a page with Editor.js.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/editorjs-break-line"></script>
 ```
 
 ## Usage
