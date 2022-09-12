@@ -27,6 +27,16 @@ Include module at your application
 import BreakLine from 'editorjs-break-line';
 ```
 
+### Load from CDN
+
+You can load a specific version of the package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/editorjs-break-line).
+
+Require this script on a page with Editor.js.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/editorjs-break-line"></script>
+```
+
 ## Usage
 
 Add a new Tool to the `tools` property of the Editor.js initial config.
