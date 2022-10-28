@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 (28.10.2022)
+* Add Coverage Report with Coveralls.
+
 ## 1.0.3 (12.09.2022)
 * Add OpenSSF BestPractices & Scorecard badges
 * Add CDN version to README
