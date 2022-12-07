@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.6 (07.12.2022)
+* Bump decode-uri-component from 0.2.0 to 0.2.2.
+* Bump loader-utils from 1.4.1 to 1.4.2.
+
 ## 1.0.5 (09.11.2022)
 * Bump loader-utils from 1.4.0 to 1.4.1.
 
