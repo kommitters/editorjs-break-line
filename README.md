@@ -1,4 +1,6 @@
 # EditorJS BreakLine Tool
+
+![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 [![Coverage Status](https://coveralls.io/repos/github/kommitters/editorjs-break-line/badge.svg)](https://coveralls.io/github/kommitters/editorjs-break-line)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/6467/badge)](https://bestpractices.coreinfrastructure.org/projects/6467)
