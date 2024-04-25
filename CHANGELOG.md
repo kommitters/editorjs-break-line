@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.10 (25.04.2023)
+* Add stale issues policy in CONTRIBUTING.md.
+* Update the codeql.yml.
+
 ## 1.0.9 (13.01.2023)
 * Update all dependencies.
 * Block egress traffic in GitHub Actions.
