@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.10 (25.04.2023)
+## 1.0.10 (25.04.2024)
 * Add stale issues policy in CONTRIBUTING.md.
 * Update the codeql.yml.
 
